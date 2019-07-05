@@ -1087,7 +1087,7 @@ status:
 
 		for _, exp := range expectations {
 			fakeGrpcServer := newGrpcServer(
-				&mockProm{Res: exp.mockPromResponse},
+				&MockProm{Res: exp.mockPromResponse},
 				nil,
 				nil,
 				nil,
@@ -1113,7 +1113,7 @@ status:
 			t.Fatalf("NewFakeAPI returned an error: %s", err)
 		}
 		fakeGrpcServer := newGrpcServer(
-			&mockProm{Res: model.Vector{}},
+			&MockProm{Res: model.Vector{}},
 			nil,
 			nil,
 			nil,

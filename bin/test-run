@@ -35,7 +35,7 @@ function run_test(){
     shift
 
     printf "Running test [%s] %s\\n" "$(basename "$filename")" "$@"
-    go test -v "$filename" --linkerd="$linkerd_path" --k8s-context="$k8s_context" --integration-tests "$@"
+    go test "$filename" --linkerd="$linkerd_path" --k8s-context="$k8s_context" --integration-tests "$@"
 }
 
 # Install the latest stable release.

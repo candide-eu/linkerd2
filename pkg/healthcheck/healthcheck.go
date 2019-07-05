@@ -964,6 +964,7 @@ func expectedServiceAccountNames() []string {
 	return []string{
 		"linkerd-controller",
 		"linkerd-grafana",
+		"linkerd-heartbeat",
 		"linkerd-identity",
 		"linkerd-prometheus",
 		"linkerd-proxy-injector",
