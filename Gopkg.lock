@@ -449,15 +449,14 @@
   revision = "ddbc3a4f7f8b0058801f896d27974d19ee98094c"
 
 [[projects]]
-  digest = "1:ee5461d303279aa5cab1f39aa1fd977bcd6072418e343563aa338ec83d5b1491"
+  digest = "1:2de0ecfb865d747f96abdb471ed6bf35c59eb8190ed7a4e947004b650b5c1d45"
   name = "github.com/linkerd/linkerd2-proxy-init"
   packages = [
     "cmd",
     "iptables",
   ]
   pruneopts = ""
-  revision = "458ed04ebd1d23db106200b49afb65fc7f6db47b"
-  version = "v1.0.0"
+  revision = "87ab4bd22a6e45ae74ff05efca7c7bed5b5a5cce"
 
 [[projects]]
   branch = "master"

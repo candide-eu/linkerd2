@@ -14,7 +14,7 @@ required = [
 [[constraint]]
   name = "github.com/linkerd/linkerd2-proxy-init"
   # This has to be kept in sync with ProxyInitVersion in pkg/version/version.go
-  version = "v1.0.0"
+  revision = "87ab4bd22a6e45ae74ff05efca7c7bed5b5a5cce"
 
 [[constraint]]
   name = "google.golang.org/grpc"
