@@ -456,7 +456,8 @@
     "iptables",
   ]
   pruneopts = ""
-  revision = "87ab4bd22a6e45ae74ff05efca7c7bed5b5a5cce"
+  revision = "8d2e800f589f066cfc32a391736b5fe72c90e711"
+  version = "1.1.0"
 
 [[projects]]
   branch = "master"
